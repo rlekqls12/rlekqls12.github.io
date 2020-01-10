@@ -1,17 +1,22 @@
-# Site settings
-title: KDB Developer Career
-description: KDB Developer Career
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# User settings
-username: KDB Developer
-user_title: Software Developer
-email: rlekqls12@kakao.com
-github_username: rlekqls12
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
 
-# Google-analytics
-google-analytics:
-  id: ""
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Custom vars
+version:             1.0.0
